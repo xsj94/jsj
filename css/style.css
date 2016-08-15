@@ -1,0 +1,53 @@
+
+@charset "utf-8";
+/* CSS Document */
+html, body, div, ul, li, p, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, img, a, span, b, strong, em, i, input, label, textarea, select, option {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000;
+}
+
+body {
+    font-family: "宋体";
+    color: #fff;
+    margin: 0 auto;
+    font-size:30px;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+/*主题*/
+.box{ width: 420px; height: 400px; background: #fff; margin: 0 auto; padding-top: 24px;}
+.box input{ width: 100%; height: 100%; border: 0 none; background: none; color: #fff;}
+.screen{ width: 354px; height: 64px; background: #cd2727; border-radius: 10px 10px; margin: 0 auto;}
+#screen{ text-align: right; line-height: 64px; font-size: 20px; }
+.button{ width:366px; height: auto; padding:15px 0 0 17px;}
+.button li{ float: left; width: 52px; height: 52px; background: #8d7c7c; border-radius: 10px 10px; margin:0 0 21px 21px;}
